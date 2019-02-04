@@ -32,8 +32,8 @@ button:active {
 }
 
 .controls {
-	display: flex; justify-content: center;
-	padding: 5px;
+	text-align:center;
+	margin:auto;
 }
 .selected {
     color: white;
