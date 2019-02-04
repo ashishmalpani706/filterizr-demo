@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Filter Demo</title>
+	<link rel="stylesheet" href="css/styles.css">
+  </head>
+  
+  <body>
+	
+	<div class="controls">
+	  <button data-filter="all" id="reset">ALL</button>
+	  <button data-multifilter="j" id="jQueryColorChange">JUNK</button>
+	  <button data-multifilter="h" id="jQueryColorChange">HEALTHY</button>
+	  <button data-multifilter="d" id="jQueryColorChange">DRINKS</button>
+	</div>
+	
+	<div class="main">
+	  <div class="filtr-item" data-category="j">
+		<img src="img/burger.jpg" alt="burger">
+	  </div>
+	  <div class="filtr-item" data-category="h">
+		<img src="img/fruitbowl.png" alt="fruitbowl">
+	  </div>
+	  <div class="filtr-item" data-category="d,h">
+		<img src="img/juice.jpg" alt="juice">
+	  </div>
+	  <div class="filtr-item" data-category="j">
+		<img src="img/pizza.jpg" alt="pizza">
+	  </div>
+	  <div class="filtr-item" data-category="d">
+		<img src="img/alcohol.jpg" alt="alcohol">
+	  </div>
+	  <div class="filtr-item" data-category="h">
+		<img src="img/salad.jpg" alt="salad">
+	  </div>
+	  <div class="filtr-item" data-category="h">
+		<img src="img/oatmeal.jpg" alt="oatmeal">
+	  </div>
+	  <div class="filtr-item" data-category="j,h">
+		<img src="img/noodles.jpg" alt="noodles">
+	  </div>
+	</div>
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/1.3.4/jquery.filterizr.min.js"></script>
+	<script src="js/script.js"></script>
+	
+  </body>
+</html>

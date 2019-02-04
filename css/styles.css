@@ -1,0 +1,41 @@
+body {
+      height: 100vh;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+	}
+	
+img {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 35px;
+	border-radius: 8px;
+}
+
+button {
+  background-color: #ff4d4d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+button:hover {background-color: #990000}
+
+button:active {
+  background-color: #990000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.controls {
+	display: flex; justify-content: center;
+	padding: 5px;
+}
+.selected {
+    color: white;
+    background: #9b1865
+}
